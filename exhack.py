@@ -88,6 +88,7 @@ while True:
 
             if method == str('3'):
                 os.system('nmap -vv -dd -PE -PP -PM -Pn -R --system-dns --scanflags URGACKPSHRSTSYNFIN -p1-65535 -sV --version-all --version-trace --script all --script-trace --min-rate 0.1 -D RND:5 --data-length 1400 --badsum --reason --packet-trace -A ' + success_file + server)
+                break
 
     if action_select == str('2'):
         print('Hydra activated')
