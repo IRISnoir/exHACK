@@ -2,7 +2,7 @@
 My automator framework made by me.
 Use:
 
-git clone 
+git clone https://github.com/IRISnoir/exHACK
 
 Then just use:
 
