@@ -153,7 +153,7 @@ Supported protocols: adam6500 asterisk cisco cisco-enable cvs ftp[s] http[s]-{he
                     time.sleep(1)
                     break
 
-        extra = input('Input the extra statement (example: for https-post-form): ')
+        extra = input('Input the extra statement (include colons): ')
         if extra == '':
             print('No supplied statement.')
         else:
