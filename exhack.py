@@ -153,7 +153,7 @@ Supported protocols: adam6500 asterisk cisco cisco-enable cvs ftp[s] http[s]-{he
                     time.sleep(1)
                     break
 
-        extra = input('Input the extra statement (include double brackets): ')
+        extra = input('Input the extra statement (include double brackets, example: "Login.asp?RetURL=%2FDefault%2Easp%3F:tfUName=^USER^&tfUPass=^PASS^:S=logout"): ')
         if extra == '':
             print('No supplied statement.')
         else:
