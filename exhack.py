@@ -158,6 +158,7 @@ Supported protocols: adam6500 asterisk cisco cisco-enable cvs ftp[s] http[s]-{he
             print('No supplied statement.')
         else:
             print('Statement supplied.')
+            extra = '/' + extra
 
         print('')
         time.sleep(1)
