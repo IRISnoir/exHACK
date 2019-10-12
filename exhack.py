@@ -296,7 +296,7 @@ Supported protocols: adam6500 asterisk cisco cisco-enable cvs ftp[s] http[s]-{he
             time.sleep(0.1)
             print('[5] - SQL injection test')
             time.sleep(0.1)
-            print('[6] - True brute')
+            print('[6] - True brute (Use Ctrl-Z to kill)')
             method = input('*Select your bruteforcing method: ')
             if method == '1':
                 while True:
